@@ -20,10 +20,11 @@ def read_mongo(db, collection, query={}, host='localhost', port=27017, username=
 	db = _connect_mongo(host=host, port=port, username=username, password=password, db=db)
 
 	# Make a query to the specific Database and collection
-	cursor = db[collection].find()
-	# print(len(cursor))
+	cursor = db[collection].find(query).limit(10000)
+	print("after cursor")
 	# Expand the cursor and construct the DataFrame
 	df = pd.DataFrame(list(cursor))
+	print("after pd.dataframe")
 
 	# Delete the _id
 	if no_id:
@@ -32,6 +33,12 @@ def read_mongo(db, collection, query={}, host='localhost', port=27017, username=
 	return df
 
 
-dataframe = read_mongo('test', 'venmo')
+pd.set_option('display.max_columns', None)
+pd.set_option('display.width', 1000)
+pd.set_option('max_columns', None)
+dataframe = read_mongo('test', 'Jasons')
+print(dataframe.columns)
 
-print(dataframe['app.name'])
+print(dataframe.head(10))
+
+# print(dataframe)
