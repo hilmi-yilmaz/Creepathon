@@ -3,7 +3,7 @@
 <br/>
 <p align="center">
     <a href="https://publicbydefault.fyi/" target="_blank">
-        <img width="33%" src="https://pbs.twimg.com/profile_images/290455037/foxmosa-twitplurk150_400x400.png" alt="Foxmosa logo">
+        <img width="25%" src="https://pbs.twimg.com/profile_images/290455037/foxmosa-twitplurk150_400x400.png" alt="Foxmosa logo">
     </a>
 </p>
 <br/>
