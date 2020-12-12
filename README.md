@@ -12,6 +12,7 @@ We used [this venmo data set](https://github.com/sa7mon/venmo-data) to extract d
 
 ![Notebook](imgs/jupyternotebook.png)
 
+![Simpson](imgs/Simpson.jpg)
 
 ## 🚀&nbsp; Installation and Documentation
 
@@ -37,6 +38,8 @@ We are happy to answer your questions via [GitHub Discussions](https://github.co
 Feel free to **file a new issue** with a respective title and description on [our Issues page](https://github.com/pde-bakk/Creepathon/issues). If you already found a solution to your problem, **we would love to review your pull request**!
 
 
-
 ## 📘&nbsp; License
 The Sulu content management system is released under the under terms of the [MIT License](LICENSE).
+
+
+Made by Naomi Sterk, Hilmi Yilmaz, Sam Kortekaas and Peer de Bakker
